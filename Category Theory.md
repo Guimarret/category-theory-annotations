@@ -314,24 +314,20 @@ F is the bifunctor that gets the A and B, as a compiler it means that the F is g
 Easy way to go from AxB -> A' x B'
 And the logical representation of this is in the image  
 
-By logic if we apply the equivalent for a comparison of A and unit() it becames even easier:
+By logic if we apply the equivalent for a comparison of A and unit() it becames even easier:  
 
-&nbsp;
 
-  
 ![Pasted image 20230121121101.png](/images/Bartosz%20Milewski/Pasted%20image%2020230121121101.png)  
 
-&nbsp;
+
 
 Bifunctor with bifunctors inside:  
 
 
-&nbsp;
+<br>
   
 
 ![Pasted image 20230121122137.png](/images/Bartosz%20Milewski/Pasted%20image%2020230121122137.png)  
-
-&nbsp;
 
 Practical situation would be something in this scheme:
 	{-# LANGUAGE DeriveFunctor #-}
