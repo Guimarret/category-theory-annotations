@@ -315,7 +315,27 @@ Easy way to go from AxB -> A' x B'
 And the logical representation of this is in the image  
 
 By logic if we apply the equivalent for a comparison of A and unit() it becames even easier 
-<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ![Pasted image 20230121121101.png](/images/Bartosz%20Milewski/Pasted%20image%2020230121121101.png)
 
