@@ -330,7 +330,7 @@ Bifunctor with bifunctors inside:
 ![Pasted image 20230121122137.png](/images/Bartosz%20Milewski/Pasted%20image%2020230121122137.png)  
 
 Practical situation would be something in this scheme:
-	{-# LANGUAGE DeriveFunctor #-}
+	LANGUAGE DeriveFunctor
 	Data Maybe = .....
 			deriving Functor
 
@@ -346,7 +346,7 @@ Sequence of the last image:
 #### Function objects
 
 Function creation in haskell and curry:
-</br>
+
   
 ![Pasted image 20230123144131.png](/images/Bartosz%20Milewski/Pasted%20image%2020230123144131.png)  
   
@@ -354,13 +354,14 @@ Function creation in haskell and curry:
   
 - It's possible to a type be exponential, if we think bool -> int , it means that technically there are 2 int's as value possibility.
 
-Observations: </br>
+Observations: 
   
 ![Pasted image 20230123183332.png](/images/Bartosz%20Milewski/Pasted%20image%2020230123183332.png)
   
 #### Natural transformations
   
- ![[Pasted image 20230124201220.png]](/images/Bartosz%20Milewski/Pasted%20image%2020230124201220.png) </br>
+ ![[Pasted image 20230124201220.png]](/images/Bartosz%20Milewski/Pasted%20image%2020230124201220.png) 
+
 Haskell equivalent:
 ```Haskel
 alpha :: forall a. F a -> G a
