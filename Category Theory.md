@@ -322,9 +322,6 @@ By logic if we apply the equivalent for a comparison of A and unit() it becames 
 
 
 Bifunctor with bifunctors inside:  
-
-
-<br>
   
 
 ![Pasted image 20230121122137.png](/images/Bartosz%20Milewski/Pasted%20image%2020230121122137.png)  
@@ -335,11 +332,12 @@ Practical situation would be something in this scheme:
 			deriving Functor
 
 Profunctor   
+
 ![Pasted image 20230121123526.png](/images/Bartosz%20Milewski/Pasted%20image%2020230121123526.png)  
 
 It's like the bifuntor but the category that compares C x C in this case have one of these C inverted to get the inverse value doing the basic a -> b
 Sequence of the last image:
-</br>
+
   
 ![Pasted image 20230121123727.png](/images/Bartosz%20Milewski/Pasted%20image%2020230121123727.png)
   
@@ -360,7 +358,7 @@ Observations:
   
 #### Natural transformations
   
- ![[Pasted image 20230124201220.png]](/images/Bartosz%20Milewski/Pasted%20image%2020230124201220.png) 
+![Pasted image 20230124201220.png](/images/Bartosz%20Milewski/Pasted%20image%2020230124201220.png) 
 
 Haskell equivalent:
 ```Haskel
