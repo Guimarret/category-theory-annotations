@@ -314,77 +314,61 @@ F is the bifunctor that gets the A and B, as a compiler it means that the F is g
 Easy way to go from AxB -> A' x B'
 And the logical representation of this is in the image  
 
-By logic if we apply the equivalent for a comparison of A and unit() it becames even easier 
+By logic if we apply the equivalent for a comparison of A and unit() it becames even easier
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![Pasted image 20230121121101.png](/images/Bartosz%20Milewski/Pasted%20image%2020230121121101.png)
+  
+![Pasted image 20230121121101.png](/images/Bartosz%20Milewski/Pasted%20image%2020230121121101.png)  
 
 Bifunctor with bifunctors inside 
 <br>
-
-![Pasted image 20230121122137.png](/images/Bartosz%20Milewski/Pasted%20image%2020230121122137.png)
+  
+![Pasted image 20230121122137.png](/images/Bartosz%20Milewski/Pasted%20image%2020230121122137.png)  
 
 Practical situation would be something in this scheme:
 	{-# LANGUAGE DeriveFunctor #-}
 	Data Maybe = .....
 			deriving Functor
 
-Profunctor 
-![Pasted image 20230121123526.png](/images/Bartosz%20Milewski/Pasted%20image%2020230121123526.png)
+Profunctor   
+![Pasted image 20230121123526.png](/images/Bartosz%20Milewski/Pasted%20image%2020230121123526.png)  
 
 It's like the bifuntor but the category that compares C x C in this case have one of these C inverted to get the inverse value doing the basic a -> b
 Sequence of the last image:
 </br>
+  
 ![Pasted image 20230121123727.png](/images/Bartosz%20Milewski/Pasted%20image%2020230121123727.png)
-
+  
 #### Function objects
 
 Function creation in haskell and curry:
 </br>
-![Pasted image 20230123144131.png](/images/Bartosz%20Milewski/Pasted%20image%2020230123144131.png)
-![Pasted image 20230123144210.png](/images/Bartosz%20Milewski/Pasted%20image%2020230123144210.png)
-
+  
+![Pasted image 20230123144131.png](/images/Bartosz%20Milewski/Pasted%20image%2020230123144131.png)  
+  
+![Pasted image 20230123144210.png](/images/Bartosz%20Milewski/Pasted%20image%2020230123144210.png)  
+  
 - It's possible to a type be exponential, if we think bool -> int , it means that technically there are 2 int's as value possibility.
 
 Observations: </br>
-
+  
 ![Pasted image 20230123183332.png](/images/Bartosz%20Milewski/Pasted%20image%2020230123183332.png)
-
+  
 #### Natural transformations
-
+  
  ![[Pasted image 20230124201220.png]](/images/Bartosz%20Milewski/Pasted%20image%2020230124201220.png) </br>
 Haskell equivalent:
 ```Haskel
 alpha :: forall a. F a -> G a
 ```
-
+  
 ![Pasted image 20230124230657.png](/images/Bartosz%20Milewski/Pasted%20image%2020230124230657.png)
-
+   
 #### 2 - Category / Bicategories
-
+   
 A category that have 2 categories inside and in this case are functors categories, that also get vertical and horizontal escalability:
+   
 ![Pasted image 20230124232555.png](/images/Bartosz%20Milewski/Pasted%20image%2020230124232555.png)
-
+   
 - [ C , D] = D^c => functor 
 
 There are vertical compositions too
