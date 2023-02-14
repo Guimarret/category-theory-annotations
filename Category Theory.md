@@ -102,7 +102,9 @@ Remembering Monad is  : _In category theory, a branch of mathematics, a monad (a
 ### Singleton sets
 
 definition: _In mathematics, a singleton, also known as a unit set or one-point set, is a set with exactly one element. For example, the set { 0 } is a singleton whose single element is 0._
+
 ![Pasted image 20230120124037.png](/images/Bartosz%20Milewski/Pasted%20image%2020230120124037.png)
+
 - _In Category theory the singleton is a terminal object in the category Sets of sets, and no other set are terminal_
 - _Any singleton admits a unique topological space structure (both subsets are open). These singleton topological spaces are terminal objects in the category of topological spaces and continuous functions. No other spaces are terminal in that category._
 -  _Any singleton admits a unique group structure (the unique element serving as identity element). These singleton groups are zero objects in the category of groups and group homomorphisms. No other groups are terminal in that category._
@@ -128,14 +130,17 @@ For every category there is another category that have the same objects with inv
 ![Pasted image 20230120131559.png](/images/Bartosz%20Milewski/Pasted%20image%2020230120131559.png)
 
  Partition products:
+
  ![Pasted image 20230120132548.png](/images/Bartosz%20Milewski/Pasted%20image%2020230120132548.png)
 
 Real projection definition:
 
 ![Pasted image 20230120133042.png](/images/Bartosz%20Milewski/Pasted%20image%2020230120133042.png)
+
 ![Pasted image 20230120133503.png](/images/Bartosz%20Milewski/Pasted%20image%2020230120133503.png)
 
-It becomes exponencially complex when we think about multi-arrows, because the arrows start to point at a multidimensional image, in this case a cube pointing to one point: 
+It becomes exponencially complex when we think about multi-arrows, because the arrows start to point at a multidimensional image, in this case a cube pointing to one point:
+
 ![Pasted image 20230120134230.png](/images/Bartosz%20Milewski/Pasted%20image%2020230120134230.png)
 
 In categorical products :
@@ -360,6 +365,7 @@ There are vertical compositions too
 ![Pasted image 20230124233222.png](/images/Bartosz%20Milewski/Pasted%20image%2020230124233222.png)
 
 Kinda like a vertical escalation, this also get's exponencial possibilities
+
 ![Pasted image 20230124233628.png](/images/Bartosz%20Milewski/Pasted%20image%2020230124233628.png)
 
 #### Monads
@@ -385,6 +391,7 @@ Changing symbols to the next annotation prints
 ![Pasted image 20230128204511.png](/images/Bartosz%20Milewski/Pasted%20image%2020230128204511.png)
 
 Proving that Identity is the same data as T
+
 ![Pasted image 20230128210958.png](/images/Bartosz%20Milewski/Pasted%20image%2020230128210958.png)
 
 Re-watch natural transformation and monads to understand better before going to the next chapter...
