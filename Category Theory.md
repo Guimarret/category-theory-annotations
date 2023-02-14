@@ -371,7 +371,7 @@ alpha :: forall a. F a -> G a
    
 A category that have 2 categories inside and in this case are functors categories, that also get vertical and horizontal escalability:  
    
-![Pasted image 20230124232555.png](/images/Bartosz%20Milewski/Pasted%20image%2020230124232555.png)
+- ![Pasted image 20230124232555.png](/images/Bartosz%20Milewski/Pasted%20image%2020230124232555.png)
    
 - [ C , D] = D^c => functor 
 
